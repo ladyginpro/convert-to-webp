@@ -12,7 +12,7 @@
 1. Open terminal and install packages:
 
    - yarn install
-   - Run command: yarn start
+   - yarn start
    - Done
 
 ### Options:
