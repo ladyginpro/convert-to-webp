@@ -1,0 +1,32 @@
+{
+  "name": "image2webp",
+  "version": "1.0.0",
+  "description": "Convert images to webp",
+  "main": "index.js",
+  "author": "Ladyginpro <work@ladyginpro.ru>",
+  "contributors": [
+    {
+      "name": "Alexander Ladygin",
+      "email": "work@ladyginpro.ru"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ladyginpro/image2webp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ladyginpro/image2webp/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "imagemin": "^8.0.1",
+    "imagemin-keep-folder": "^5.3.2",
+    "imagemin-webp": "^8.0.0",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module"
+}
